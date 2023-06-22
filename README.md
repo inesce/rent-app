@@ -1,5 +1,1 @@
-Struktura aplikacji:
-
-- api - kontrolery, dto
-
-- domain - encje, serwisy, repozytoria
+Aplikacja zaprojektowana do wypożyczania samochodów. Powstała z użyciem frameworku Spring. Uruchamianie aplikacji odbywa się standardowo, jak w przypadku innych aplikacji korzystających z frameworku Spring.
