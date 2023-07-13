@@ -2,7 +2,7 @@ package com.rentapp.api;
 
 import com.rentapp.api.dto.CarDto;
 import com.rentapp.api.mapper.CarMapper;
-import com.rentapp.domain.Car;
+import com.rentapp.domain.entity.Car;
 import com.rentapp.service.CarService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

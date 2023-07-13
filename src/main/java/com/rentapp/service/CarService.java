@@ -1,6 +1,6 @@
 package com.rentapp.service;
 
-import com.rentapp.domain.Car;
+import com.rentapp.domain.entity.Car;
 import com.rentapp.exception.ElementNotFoundException;
 import com.rentapp.exception.InvalidRequestException;
 import com.rentapp.repository.CarRepository;

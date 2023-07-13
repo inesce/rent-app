@@ -1,10 +1,9 @@
 package com.rentapp.api.mapper;
 
 import com.rentapp.api.dto.CarDto;
-import com.rentapp.domain.Car;
+import com.rentapp.domain.entity.Car;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,6 +16,7 @@ public class CarMapper {
                 .brand(carDto.getBrand())
                 .model(carDto.getModel())
                 .productionYear(carDto.getProductionYear())
+                .pricePerDay(carDto.getPricePerDay())
                 .build();
     }
 
@@ -26,6 +26,7 @@ public class CarMapper {
                 .brand(car.getBrand())
                 .model(car.getModel())
                 .productionYear(car.getProductionYear())
+                .pricePerDay(car.getPricePerDay())
                 .build();
     }
 

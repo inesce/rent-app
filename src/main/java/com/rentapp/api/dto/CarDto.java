@@ -3,6 +3,8 @@ package com.rentapp.api.dto;
 import lombok.Builder;
 import lombok.Getter;
 
+import java.math.BigDecimal;
+
 @Builder
 @Getter
 public class CarDto {
@@ -10,4 +12,5 @@ public class CarDto {
     private String brand;
     private String model;
     private Integer productionYear;
+    private BigDecimal pricePerDay;
 }

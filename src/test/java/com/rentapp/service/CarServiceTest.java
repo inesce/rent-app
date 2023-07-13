@@ -1,11 +1,12 @@
 package com.rentapp.service;
 
-import com.rentapp.domain.Car;
+import com.rentapp.domain.entity.Car;
 import com.rentapp.exception.ElementNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -23,6 +24,7 @@ class CarServiceTest {
                 .brand("Toyota")
                 .model("Yaris")
                 .productionYear(2010)
+                .pricePerDay(new BigDecimal("23.65"))
                 .build();
 
         //when
